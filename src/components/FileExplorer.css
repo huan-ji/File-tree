@@ -1,0 +1,94 @@
+.file-explorer {
+  width: 40%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  box-shadow: 0px 30px 50px grey;
+}
+
+.file-explorer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.file-explorer > div {
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.title {
+  font-weight: bold;
+  position: relative;
+}
+
+.close {
+  background-position: -42px 0px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.label-row {
+  color: lightgrey;
+}
+
+.tree-row {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icons {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url('../icon-sprite.png');
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+.folder-icon {
+  background-position: 0px 0px;
+}
+
+.private-folder-icon {
+  background-position: -14px 0px;
+}
+
+.file-icon {
+  background-position: -28px 0px;
+}
+
+.open-icon-black {
+  background-position: -70px 0px;
+}
+
+.close-icon-black {
+  background-position: -56px 0px;
+}
+
+.open-icon-white {
+  background-position: -98px 0px;
+}
+
+.close-icon-white {
+  background-position: -84px 0px;
+}
+
+.footer {
+  height: 45px;
+}
+
+.footer-link {
+  float: left;
+  cursor: pointer;
+}
+
+.done-button {
+  float: right;
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
